@@ -13,10 +13,10 @@ name:                ConcourseAtrium
 version:             0.1.0.0
 
 -- A short (one-line) description of the package.
--- synopsis:
+synopsis: EDSL for the Concourse CI application config format
 
 -- A longer description of the package.
--- description:
+description: a functional EDSL for the Concourse CI application config format
 
 -- The license under which the package is released.
 license:             BSD2
@@ -30,6 +30,9 @@ author:              Eugene Butler, Carter Schonwald
 -- An email address to which users can send suggestions, bug reports, and
 -- patches.
 maintainer:          eugene@eugene4.com
+                     carter at wellposed dot com
+
+
 
 -- A copyright notice.
 -- copyright:
@@ -42,9 +45,14 @@ build-type:          Simple
 -- README.
 extra-source-files:  ChangeLog.md
 
+
+
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
 
+source-repository head
+  type: git
+  location: https://github.com/EButlerIV/ConcourseAtrium
 
 library
   -- Modules exported by the library.
